@@ -1,7 +1,7 @@
 # CS301 Git Adventure
 
 ## Team Members
-- Everyone must add their name here (intentional conflict area).
+- Joel Echeverri 
 
 ## Git Requirements
 - Feature branches only
