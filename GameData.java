@@ -36,6 +36,9 @@ public class GameData {
   tower.getItems().add(new Item("Potion","Makes you better"));
   lake.getItems().add(new Item("Rare Fish","Can be sold for good money."));
 
+  Room shed=new Room("Shed", "A spooky abandoned shed");
+  Room house=new Room("House", "A haunted house");
+  Room field=new Room("Field", "A open grassy field");
   return world;
  }
 }
