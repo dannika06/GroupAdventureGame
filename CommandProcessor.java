@@ -23,6 +23,19 @@ public class CommandProcessor {
    return true;
   }
   // TODO: Students add commands HERE.
+  if(command.equalsIgnoreCase("map")){
+   Room currentRoom=player.getCurrentRoom();
+   System.out.println("You are at: "+currentRoom.getName());
+   if(currentRoom.getExits().isEmpty()){
+    System.out.println("There are no visible exits.");
+   }else{
+    System.out.println("Exits:");
+    for(String direction:currentRoom.getExits().keySet()){
+     System.out.println("- "+direction+" -> "+currentRoom.getExits().get(direction));
+    }
+   }
+   return true;
+  }
   return false;
  }
 }
