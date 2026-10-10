@@ -24,7 +24,7 @@ public class CommandProcessor {
   }
   // TODO: Students add commands HERE.
   if(command.equalsIgnoreCase("score")){
-    System.out.println("Score: " + Player.getScore());
+    System.out.println("Score: " + player.getScore());
     return true;
   }
   return false;
