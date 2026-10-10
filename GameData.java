@@ -33,6 +33,7 @@ public class GameData {
   // TODO Student B item additions
   // TODO Student C quest location additions
   forest.getItems().add(new Item("Hatchet","Chops the trees."));
+  tower.getItems().add(new Item("Potion","Makes you better"));
 
   return world;
  }
