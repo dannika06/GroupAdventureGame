@@ -2,6 +2,7 @@
 
 ## Team Members
 - Dannika Covarrubias
+- Joel Echeverri 
 
 ## Description of new features
 - Score command shows player's score

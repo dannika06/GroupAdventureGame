@@ -15,6 +15,7 @@ public class Player {
 
   // ===== CONFLICT ZONE =====
   // Add your new fields directly below this line.
+  private int reputation;
   private int gold;
 
   public Player(Room room){
