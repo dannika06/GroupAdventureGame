@@ -23,6 +23,10 @@ public class CommandProcessor {
    return true;
   }
   // TODO: Students add commands HERE.
+  if(command.equalsIgnoreCase("score")){
+    System.out.println("Score: " + Player.getScore);
+    return true;
+  }
   return false;
  }
 }
