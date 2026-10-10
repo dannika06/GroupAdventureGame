@@ -32,6 +32,10 @@ public class GameData {
   // TODO Student A room additions
   // TODO Student B item additions
   // TODO Student C quest location additions
+  forest.getItems().add(new Item("Hatchet","Chops the trees."));
+  tower.getItems().add(new Item("Potion","Makes you better"));
+  lake.getItems().add(new Item("Rare Fish","Can be sold for good money."));
+
   Room shed=new Room("Shed", "A spooky abandoned shed");
   Room house=new Room("House", "A haunted house");
   Room field=new Room("Field", "A open grassy field");
