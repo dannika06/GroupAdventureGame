@@ -30,7 +30,7 @@ public class GameData {
   world.addRoom(lake);
 
   // TODO Student A room additions
-  Room shed=new Room("Shed", "A spooky abandonded shed");
+  Room shed=new Room("Shed", "A spooky abandoned shed");
   Room house=new Room("House", "A haunted house");
   Room field=new Room("Field", "A open grassy field");
   // TODO Student B item additions
