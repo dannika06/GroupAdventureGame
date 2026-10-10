@@ -32,7 +32,9 @@ public class GameData {
   // TODO Student A room additions
   // TODO Student B item additions
   // TODO Student C quest location additions
-
+  Room shed=new Room("Shed", "A spooky abandoned shed");
+  Room house=new Room("House", "A haunted house");
+  Room field=new Room("Field", "A open grassy field");
   return world;
  }
 }
