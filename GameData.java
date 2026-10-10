@@ -32,9 +32,6 @@ public class GameData {
   // TODO Student A room additions
   // TODO Student B item additions
   // TODO Student C quest location additions
-  forest.getItems().add(new Item("Hatchet","Chops the trees."));
-  tower.getItems().add(new Item("Potion","Makes you better"));
-  lake.getItems().add(new Item("Rare Fish","Can be sold for good money."));
 
   return world;
  }
