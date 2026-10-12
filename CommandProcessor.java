@@ -35,6 +35,7 @@ public class CommandProcessor {
     }
    }
    return true;
+  }
   if(command.equalsIgnoreCase("score")){
     System.out.println("Score: " + player.getScore());
     return true;
